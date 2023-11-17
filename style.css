@@ -2,9 +2,11 @@
   box-sizing: border-box;
 }
 
-
-
-
+p{
+	font-family: "Lucida Handwriting", cursive;
+  text-shadow: 2px 2px blue;
+  color: white;
+}
 
 body {
  background-image: url("tumblr_37b54c828a12d6b13e1d518f07d01eba_f8f05ca1_640.gif")
