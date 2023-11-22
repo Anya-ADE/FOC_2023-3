@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>FoC</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+img {
+  float: left;
+ padding-right: 40px; 
+ padding-left: 40px;
+ padding-bottom: 40px;
+ 
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  font-family: "Lucida Handwriting", cursive;
+text-shadow: 4px 4px purple;
+}
+
+p, h3 {
+   font-family: "Lucida Handwriting", cursive;
+  text-shadow: 2px 2px purple;
+  color: white;
+    font-size: 20px;
+ }
+
+
+ h3 {
+   font-family: "Lucida Console";
+  text-shadow: 2px 2px purple;
+  color: white;
+    font-size: 20px;
+ }
+
+
+body{
+
+background-color: black;
+
+} 
+
+ a:link, a:visited {
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: "Lucida Handwriting", cursive;
+  text-shadow: 2px 2px purple;
+  
+  
+}
+
+a:hover, a:active {
+color: white;
+font-family: "Lucida Handwriting", cursive;
+text-shadow: 2px 2px purple;
+}
+
+
+</style>
+</head>
+<body>
+
+<section>
+<h1>PROJECT 3: BINARY TO HEXDECIMAL</h1>
+<hr>	
+
+
+<p><img src="bintohex.jpg"></p>
+        
+			
+         
+<input type="number" id="inputBin" value="">
+
+<p>Enter any 4 digit binary number:</p>
+
+<button onclick="binToHex()">Submit</button>
+
+<p>Hexidecimal Value : </p>
+<p id="demo"></p>
+
+<script>
+function binToHex() {
+  var x = document.getElementById("inputBin").value;
+  var hexOut = parseInt(x , 2).toString(16).toUpperCase();
+  document.getElementById("demo").innerHTML = hexOut;
+  }
+</script>
+
+
+
+</section>
+
+
+<h3><a href="index.html">Back to Home</a></h3>
+
+<footer>
+  <p>@ POWERED BY ANYA-ADE</p>
+</footer>
+
+</body>
+</html>
