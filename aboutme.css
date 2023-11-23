@@ -1,5 +1,5 @@
 body {
-  margin: auto;
+  margin: 20;
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
   overflow: auto;
   background: linear-gradient(
@@ -74,39 +74,6 @@ body {
   }
 }
 
-h1 {
-  color: black;
-	font-family: "Lucida Handwriting", cursive;
-	 
-}
-
-h2 {
-  color: black;
-	font-family: "Lucida Handwriting", cursive;
-	
-}
-
-h3 {
-  color: black;
-	font-family: "Lucida Handwriting", cursive;
-	 display: inline;
-}
-
-p {
-  font-family: "Trirong", serif;
-  font-size: 15px;
- }
- 
-img {
- float: center;
- 
-}
-
-
-#contact {
-  display: inline;
-}
-
 .column {
   float: left;
   width: 35%;
@@ -121,16 +88,6 @@ img {
   clear: both;
 }
 
-li {
-	font-family: "Trirong", serif;
-  font-size: 15px;
-}	
-
-ul{
-	font-family: "Trirong", serif;
-  font-size: 15px;
-}
-
 @media (max-width: 600px) {
   nav, article {
     width: 100%;
@@ -141,9 +98,18 @@ ul{
   box-sizing: border-box;
 }
 
-p,{
-   font-family: "Lucida Handwriting", cursive;
-  text-shadow: 2px 2px purple;
+a:link, a:visited {
   color: white;
-    font-size: 20px;
- }
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: "Lucida Handwriting", cursive;
+  text-shadow: 2px 2px black;
+}
+
+a:hover, a:active {
+color: blue;
+font-family: "Lucida Handwriting", cursive;
+text-shadow: 2px 2px black;
+}
