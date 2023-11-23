@@ -98,8 +98,8 @@ p {
  }
  
 img {
-  float: right;
-  border-radius: 50%;	
+ float: center;
+ 
 }
 
 
@@ -140,3 +140,10 @@ ul{
 * {
   box-sizing: border-box;
 }
+
+p,{
+   font-family: "Lucida Handwriting", cursive;
+  text-shadow: 2px 2px purple;
+  color: white;
+    font-size: 20px;
+ }
